@@ -3,15 +3,50 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
+.main{
+  margin-top: 32px;
+  margin-left: 36px;
+  margin-right:36px ;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.item1{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+}
+
+div.item2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
+div.item3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
+div.item4{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
